@@ -1,9 +1,9 @@
-module github.com/akichat/gui
+module github.com/CasvalDOT/akichat-gui
 
 go 1.21.1
 
 require (
-	github.com/akichat/core v0.0.0-unpublished
+	github.com/CasvalDOT/akichat-core v1.0.1
 	github.com/gen2brain/beeep v0.0.0-20230907135156-1a38885a97fc
 	github.com/wailsapp/wails/v2 v2.6.0
 )
@@ -39,6 +39,3 @@ require (
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 )
-
-// replace github.com/wailsapp/wails/v2 v2.6.0 => /home/casval/go/pkg/mod
-replace github.com/akichat/core v0.0.0-unpublished => ../core

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/akichat/core"
+	core "github.com/CasvalDOT/akichat-core"
 	"github.com/gen2brain/beeep"
 )
 
